@@ -1,16 +1,7 @@
 # spec/viewport_spec.coffee
+FakeContext = require("./support/fake_context.coffee")
 
 Viewport = require("../lib/viewport.coffee")
-
-class FakeContext
-  constructor: () ->
-#    console.log('*** new FakeContext created')
-  moveTo: (x,y) ->
-    console.log("--- FakeContext#moveTo invoked with #{x},#{y}")
-  lineTo: (x,y) ->
-    console.log("--- FakeContext#lineTo invoked with #{x},#{y}")
-  stroke: () ->
-    console.log("--- FakeContext#stroke invoked")
 
 describe 'Viewport', ->
   beforeEach ->
