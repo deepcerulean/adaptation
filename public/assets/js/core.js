@@ -23,6 +23,8 @@ Viewport = (function() {
 
   Viewport.prototype.drawGrid = function(width, height, cell_size) {
     var x, y, _i, _results;
+    console.log("Viewport#drawGrid called");
+    console.log("--- drawing a " + width + "x" + height + " grid with cell size " + cell_size);
     _results = [];
     for (x = _i = 0; 0 <= width ? _i <= width : _i >= width; x = _i += cell_size) {
       _results.push((function() {

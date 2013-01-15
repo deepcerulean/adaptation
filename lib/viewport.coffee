@@ -19,6 +19,8 @@ class Viewport
 
   # draw lines forming a grid
   drawGrid: (width, height, cell_size) ->
+    console.log("Viewport#drawGrid called")
+    console.log("--- drawing a #{width}x#{height} grid with cell size #{cell_size}")
     for x in [0..width] by cell_size
       for y in [0..height] by cell_size
         this.drawLine(x,0,x,height)
