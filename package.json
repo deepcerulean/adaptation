@@ -1,0 +1,19 @@
+{
+  "name": "adaptation",
+  "version": "0.0.0",
+  "description": "web-based cellular evolution game",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepcerulean/adaptation.git"
+  },
+  "engines": {
+    "node": "0.8.17",
+    "npm": "1.1.62"
+  },
+  "author": "joseph weissman",
+  "license": "BSD"
+}
