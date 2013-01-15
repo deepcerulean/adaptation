@@ -15,7 +15,8 @@
     "npm": "1.1.65"
   },
   "dependencies": {
-      "node-static": "0.6.7"
+      "node-static": "0.6.7",
+      "jasmine-node": "1.0.28"
   },
   "author": "joseph weissman",
   "license": "BSD"
