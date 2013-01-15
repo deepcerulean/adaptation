@@ -11,7 +11,7 @@
     "url": "https://github.com/deepcerulean/adaptation.git"
   },
   "engines": {
-    "node": "0.8.17",
+    "node": "0.8.14",
     "npm": "1.1.62"
   },
   "author": "joseph weissman",
