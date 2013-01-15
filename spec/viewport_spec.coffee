@@ -37,8 +37,3 @@ describe 'a Viewport', ->
         spyOn(@viewport, 'drawLine')
         @viewport.drawGrid(1,1,1)
         expect(@viewport.drawLine.callCount).toBe(8)
-
-
-
-#  it 'draws a grid', ->
-#    expect(false).toBeTruthy()
