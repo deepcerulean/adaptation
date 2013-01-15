@@ -5,4 +5,6 @@ handler = (request, response) ->
 app = require("http").createServer(handler)
 static_ = require("node-static")
 fileServer = new static_.Server("./public")
-app.listen 8080
+
+port = process.env.PORT || 8080
+app.listen port
